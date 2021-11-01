@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0s;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputForm {
+    margin: 100px 0;
+    text-align: center;
+}
+
+.inputVal {
+    height: 60px;
+    width: 600px;
+    background-color: #eeeeee;
+    font-size: 20px;
+    border: 1px solid #c1ccca;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.submitBtn {
+    height: 60px;
+    width: 100px;
+    background-color: #c1ccca;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.submitBtn:hover {
+    background-color: #aebcc4;
+}
+
+.display {
+    text-align: center;
+}

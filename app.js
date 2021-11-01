@@ -25,6 +25,9 @@ button.addEventListener('click', function() {
     })
 
     .catch(err => alert("Invalid city name!"))
+
+    var currentDay = new Date();
+    document.querySelector(".currentDay").innerHTML = currentDay;
 });
 
 // RESOURCES 

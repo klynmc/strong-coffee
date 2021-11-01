@@ -6,6 +6,16 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3faff;
+}
+
+header {
+    background-color: #c1ccca;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .inputForm {
@@ -21,7 +31,6 @@ body {
     border: 1px solid #c1ccca;
     border-radius: 5px;
     color: black;
-    text-align: center;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -38,8 +47,25 @@ body {
 
 .submitBtn:hover {
     background-color: #aebcc4;
+    border: 1px solid #c1ccca;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: #aebcc4;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .display {
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /*height: 100px;
+    width: 100px;*/
     text-align: center;
+    background-color: #c1ccca;
+    color: white;
+    font-weight: bold;
 }
